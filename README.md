@@ -1,12 +1,13 @@
-E-commerce Web Application
+**E-commerce Web Application**
+
 A E-commerce application using Spring Boot (Java) for the backend. This application demonstrates the integration of RESTful APIs with a modern frontend stack, ideal for learning and demonstration purposes.
 
-📁 Project Structure
+📁 **Project Structure**
 SpringBoot-Ecommerce-main/
 ├── Ecommerce-Backend/       # Spring Boot REST API backend
 ├── Ecommerce-Frontend/      # React + Vite frontend application
 
-🧩 Backend - Spring Boot
+🧩** Backend - Spring Boot**
 🔧 Technologies Used
 Java 17+
 Spring Boot
@@ -14,7 +15,7 @@ Spring Data JPA
 MySQL (can be adapted)
 Maven
 
-📂 Backend Directory Structure
+📂 **Backend Directory Structure**
 Ecommerce-Backend/
 ├── controller/      # REST endpoints
 ├── model/           # JPA entity classes
@@ -25,7 +26,7 @@ Ecommerce-Backend/
 │   └── data1.sql
 └── pom.xml          # Maven build config
 
-⚙️ Setup Instructions
+⚙️ **Setup Instructions**
 1.Database Setup:
 
 Create a MySQL database, e.g., ecomdb.
@@ -45,7 +46,7 @@ Data Initialization:
 
 3.On first run, data1.sql inserts seed product data into your DB.
 
-📡 REST API Endpoints
+📡 **REST API Endpoints**
 Method	Endpoint	Description
 GET	/products	Fetch all products
 GET	/products/{id}	Get product by ID
@@ -53,7 +54,7 @@ POST	/products	Add new product
 PUT	/products/{id}	Update product
 DELETE	/products/{id}	Delete product
 
-▶️ Getting Started
+▶️ **Getting Started**
 Install dependencies:
 
 1.cd Ecommerce-Frontend
